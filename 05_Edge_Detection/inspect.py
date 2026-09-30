@@ -16,7 +16,9 @@ gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # ////////////Sobel Y//////////////////////////////
 # # ////apply sobel edge detection to the grayscale image
-sobelY = cv2.Sobel(gray_img, cv2.CV_64F, 0, 1, ksize=3)
-cv2.imshow("Sobel Y", sobelY)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# sobelY = cv2.Sobel(gray_img, cv2.CV_64F, 0, 1, ksize=3)
+# cv2.imshow("Sobel Y", sobelY)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
+
+
